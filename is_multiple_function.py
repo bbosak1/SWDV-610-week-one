@@ -4,8 +4,10 @@
 def is_multiple(n, m):
    "multiples description"
    if m % n == 0:
-       print("True")
+       print("True")   #The function will display "True"
+       return True     #The function will return True as well.  I did this to demonstrate the return feature of a function
    else:
-       print ("False")
+       print("False")  #Likewise, the other part of the control flow will print and return False
+       return False
        
 is_multiple(5,15)
